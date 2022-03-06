@@ -6,7 +6,22 @@
         xmlns:local="clr-namespace:PowerShellCleaner"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Margin="10,10,10,10">
+        <ListBox x:Name="HistoryCommandsList" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,0,135,0">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+
+                    <Grid >
+                        <Button Content="X" Height="20"  HorizontalAlignment="Left" Foreground="Red" Name="RemoveLineButton"  Click="RemoveLineButton_Click" DataContext="{Binding}"/>
+                        <TextBlock Text="{Binding}"  Height="20" Margin="29,0,-29,0" Background="LightGray"/>
+                    </Grid>
+
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Button x:Name="SaveButton" Content="Save" Margin="650,349,15,0" VerticalAlignment="Top" Height="30" Click="SaveButton_Click"/>
+        <Button x:Name="RemoveDuplicateButton" Content="Remove duplicates" Margin="650,314,15,0" VerticalAlignment="Top" Height="30" Click="RemoveDuplicateButton_Click"/>
+        <Button Content="Reload" HorizontalAlignment="Left" Margin="650,267,0,0" VerticalAlignment="Top" Height="30" Width="115" Name="RealodButton"  Click="RealodButton_Click"/>
 
     </Grid>
 </Window>
