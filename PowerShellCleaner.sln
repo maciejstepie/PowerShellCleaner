@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerShellCleaner", "PowerShellCleaner.csproj", "{ACF959A6-8ABC-45B3-B65D-2161DCD3142B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACF959A6-8ABC-45B3-B65D-2161DCD3142B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACF959A6-8ABC-45B3-B65D-2161DCD3142B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACF959A6-8ABC-45B3-B65D-2161DCD3142B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACF959A6-8ABC-45B3-B65D-2161DCD3142B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56AE7672-ADDA-4EAE-924D-41C22121925C}
+	EndGlobalSection
+EndGlobal
